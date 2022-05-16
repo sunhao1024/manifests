@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote name="mesa3d" fetch="." />
+
+	<default remote="smart-hw" revision="master" sync-j="8" />
+
+	<include name="sdk/rk3566_linux_sdk_yd_bringup_new_yd_tts.xml" />
+	<include name="service/yd_service_rk3566_cherry_bt_refactor.xml" />
+	<include name="app/yd_apps_rk3566_cherry.xml" />
+
+	<default remote="origin" revision="master" sync-j="4" />
+	<project name="kernel/liteos_a" path="kernel/liteos_a" />
+	<project name="kernel/liteos_m" path="kernel/liteos_m" />
+
+</manifest>
