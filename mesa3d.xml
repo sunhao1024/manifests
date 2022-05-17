@@ -8,5 +8,4 @@
 	<project name="drm" path="libdrm" />
 	<project name="kmscube" path="kmscube" />
 	<project name="mesa" path="mesa" />
-
 </manifest>
