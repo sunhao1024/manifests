@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="mesa3d" fetch="https://gitlab.freedesktop.org/mesa" />
+	<remote name="base" fetch="https://github.com/sunhao1024" />
+	<default remote="base" revision="master" sync-j="8" />
+
+	<project name="note" path="note" />
+	<project name="sample" path="sample" />
+</manifest>
