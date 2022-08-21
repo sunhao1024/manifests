@@ -4,8 +4,7 @@
 	<remote name="mesa3d" fetch="https://gitlab.freedesktop.org/mesa" />
 
 	<default remote="mesa3d" revision="main" sync-j="8" />
-
+	<project name="kmscube" revision="master" path="kmscube" />
 	<project name="drm" path="libdrm" />
-	<project name="kmscube" path="kmscube" />
 	<project name="mesa" path="mesa" />
 </manifest>
